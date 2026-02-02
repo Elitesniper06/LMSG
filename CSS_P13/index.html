@@ -10,42 +10,44 @@
     <header>
         <img src="logo.png" alt="Logo" class="logo">
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-            <a href="#">Acerca de</a>
+            <ul>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#responsive">Responsive</a></li>
+                <li><a href="#variables">Variables</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="main-container">
-        <div class="card">
+        <article class="card" id="flexbox">
             <h3>Flexbox</h3>
             <p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-            <div class="card_label">CSS Tricks</div>
-        </div>
-        <div class="card">
-            <h3>Flexbox</h3>
-            <p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-            <div class="card_label">CSS Tricks</div>
-        </div>
-        <div class="card">
-            <h3>Flexbox</h3>
-            <p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-            <div class="card_label">CSS Tricks</div>
-        </div>
-        <div class="card">
-            <h3>Flexbox</h3>
-            <p>Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.</p>
-            <div class="card_label">CSS Tricks</div>
-        </div>
+            <span class="card_label">Layout</span>
+        </article>
+        <article class="card" id="grid">
+            <h3>Grid</h3>
+            <p>CSS Grid Layout is a two-dimensional layout system for the web. It lets you lay content out in rows and columns, and has many features that make building complex layouts straightforward.</p>
+            <span class="card_label">Diseño</span>
+        </article>
+        <article class="card" id="responsive">
+            <h3>Responsive</h3>
+            <p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size.</p>
+            <span class="card_label">Adaptable</span>
+        </article>
+        <article class="card" id="variables">
+            <h3>Variables</h3>
+            <p>CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document.</p>
+            <span class="card_label">Propiedades</span>
+        </article>
     </main>
 
     <section class="feedback">
         <p>How did you like this article?</p>
-        <div class="feedback-options">
+        <footer class="feedback-options">
             <span class="bad">👎 Bad</span>
             <span class="good">👍 Good</span>
-        </div>
+        </footer>
     </section>
 </body>
 </html>
